@@ -1,11 +1,11 @@
-import os
-import cv2
-from tqdm import tqdm
-from ultralytics import YOLO
+import os       # For file/folder operations
+import cv2      # OpenCV - for images and drawing
+from tqdm import tqdm   # Progress bar
+from ultralytics import YOLO    # YOLO detector
 
 def parse_seqinfo(seq_dir):
     """
-    Reads seqinfo.ini and returns a dict with sequence information.
+    Reads seqinfo.ini and returns a dict with sequence values.
     """
     ini_path = os.path.join(seq_dir, "seqinfo.ini")
     info = {}

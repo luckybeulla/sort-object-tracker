@@ -8,6 +8,7 @@ __pycache__/
 
 #added files
 data/
+yolov8m.pt
 
 # Distribution / packaging
 .Python

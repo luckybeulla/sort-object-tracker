@@ -7,7 +7,18 @@ __pycache__/
 *.so
 
 #added files
-data/
+data/*
+!data/hungarian_tracked7.mp4
+!data/hungarian_tracked6.mp4
+!data/hungarian_tracked5.mp4
+!data/hungarian_tracked4.mp4
+!data/hungarian_tracked3.mp4
+!data/hungarian_tracked2.mp4
+!data/hungarian_tracked_new.mp4
+!data/hungarian_tracked.mp4
+!data/iou_tracked.mp4
+!data/kalman_tracked.mp4
+!data/tracking_results.txt
 
 # Distribution / packaging
 .Python

@@ -1,7 +1,7 @@
-import os       # For file/folder operations
-import cv2      # OpenCV - for images and drawing
+import os      
+import cv2      
 from tqdm import tqdm   # Progress bar
-from ultralytics import YOLO    # YOLO detector
+from ultralytics import YOLO   
 
 def parse_seqinfo(seq_dir):
     """
@@ -86,7 +86,7 @@ def main(
     if save and not os.path.exists(output_dir):
         os.makedirs(output_dir, exist_ok=True)
     
-    # Initialize video writer if needed
+    # Initialize video writer
     writer = None
     if write_video:
         # Read first frame to get dimensions
